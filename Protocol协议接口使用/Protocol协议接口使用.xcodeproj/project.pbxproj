@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54C35BE2233EFA270062D6E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C35BE1233EFA270062D6E2 /* AppDelegate.m */; };
+		54C35BE5233EFA270062D6E2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C35BE4233EFA270062D6E2 /* SceneDelegate.m */; };
+		54C35BE8233EFA270062D6E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C35BE7233EFA270062D6E2 /* ViewController.m */; };
+		54C35BEB233EFA270062D6E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C35BE9233EFA270062D6E2 /* Main.storyboard */; };
+		54C35BED233EFA290062D6E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54C35BEC233EFA290062D6E2 /* Assets.xcassets */; };
+		54C35BF0233EFA290062D6E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C35BEE233EFA290062D6E2 /* LaunchScreen.storyboard */; };
+		54C35BF3233EFA290062D6E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C35BF2233EFA290062D6E2 /* main.m */; };
+		54C35BFD233EFA290062D6E2 /* Protocol______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C35BFC233EFA290062D6E2 /* Protocol______Tests.m */; };
+		54C35C08233EFA2A0062D6E2 /* Protocol______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C35C07233EFA2A0062D6E2 /* Protocol______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54C35BF9233EFA290062D6E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54C35BD5233EFA270062D6E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54C35BDC233EFA270062D6E2;
+			remoteInfo = "Protocol协议接口使用";
+		};
+		54C35C04233EFA2A0062D6E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54C35BD5233EFA270062D6E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54C35BDC233EFA270062D6E2;
+			remoteInfo = "Protocol协议接口使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54C35BDD233EFA270062D6E2 /* Protocol协议接口使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Protocol协议接口使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C35BE0233EFA270062D6E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54C35BE1233EFA270062D6E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54C35BE3233EFA270062D6E2 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		54C35BE4233EFA270062D6E2 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		54C35BE6233EFA270062D6E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		54C35BE7233EFA270062D6E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		54C35BEA233EFA270062D6E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54C35BEC233EFA290062D6E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54C35BEF233EFA290062D6E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54C35BF1233EFA290062D6E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C35BF2233EFA290062D6E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54C35BF8233EFA290062D6E2 /* Protocol协议接口使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Protocol协议接口使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C35BFC233EFA290062D6E2 /* Protocol______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Protocol______Tests.m"; sourceTree = "<group>"; };
+		54C35BFE233EFA290062D6E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C35C03233EFA2A0062D6E2 /* Protocol协议接口使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Protocol协议接口使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C35C07233EFA2A0062D6E2 /* Protocol______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Protocol______UITests.m"; sourceTree = "<group>"; };
+		54C35C09233EFA2A0062D6E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54C35BDA233EFA270062D6E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C35BF5233EFA290062D6E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C35C00233EFA2A0062D6E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54C35BD4233EFA270062D6E2 = {
+			isa = PBXGroup;
+			children = (
+				54C35BDF233EFA270062D6E2 /* Protocol协议接口使用 */,
+				54C35BFB233EFA290062D6E2 /* Protocol协议接口使用Tests */,
+				54C35C06233EFA2A0062D6E2 /* Protocol协议接口使用UITests */,
+				54C35BDE233EFA270062D6E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54C35BDE233EFA270062D6E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54C35BDD233EFA270062D6E2 /* Protocol协议接口使用.app */,
+				54C35BF8233EFA290062D6E2 /* Protocol协议接口使用Tests.xctest */,
+				54C35C03233EFA2A0062D6E2 /* Protocol协议接口使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54C35BDF233EFA270062D6E2 /* Protocol协议接口使用 */ = {
+			isa = PBXGroup;
+			children = (
+				54C35BE0233EFA270062D6E2 /* AppDelegate.h */,
+				54C35BE1233EFA270062D6E2 /* AppDelegate.m */,
+				54C35BE3233EFA270062D6E2 /* SceneDelegate.h */,
+				54C35BE4233EFA270062D6E2 /* SceneDelegate.m */,
+				54C35BE6233EFA270062D6E2 /* ViewController.h */,
+				54C35BE7233EFA270062D6E2 /* ViewController.m */,
+				54C35BE9233EFA270062D6E2 /* Main.storyboard */,
+				54C35BEC233EFA290062D6E2 /* Assets.xcassets */,
+				54C35BEE233EFA290062D6E2 /* LaunchScreen.storyboard */,
+				54C35BF1233EFA290062D6E2 /* Info.plist */,
+				54C35BF2233EFA290062D6E2 /* main.m */,
+			);
+			path = "Protocol协议接口使用";
+			sourceTree = "<group>";
+		};
+		54C35BFB233EFA290062D6E2 /* Protocol协议接口使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				54C35BFC233EFA290062D6E2 /* Protocol______Tests.m */,
+				54C35BFE233EFA290062D6E2 /* Info.plist */,
+			);
+			path = "Protocol协议接口使用Tests";
+			sourceTree = "<group>";
+		};
+		54C35C06233EFA2A0062D6E2 /* Protocol协议接口使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				54C35C07233EFA2A0062D6E2 /* Protocol______UITests.m */,
+				54C35C09233EFA2A0062D6E2 /* Info.plist */,
+			);
+			path = "Protocol协议接口使用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54C35BDC233EFA270062D6E2 /* Protocol协议接口使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C35C0C233EFA2A0062D6E2 /* Build configuration list for PBXNativeTarget "Protocol协议接口使用" */;
+			buildPhases = (
+				54C35BD9233EFA270062D6E2 /* Sources */,
+				54C35BDA233EFA270062D6E2 /* Frameworks */,
+				54C35BDB233EFA270062D6E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Protocol协议接口使用";
+			productName = "Protocol协议接口使用";
+			productReference = 54C35BDD233EFA270062D6E2 /* Protocol协议接口使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54C35BF7233EFA290062D6E2 /* Protocol协议接口使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C35C0F233EFA2A0062D6E2 /* Build configuration list for PBXNativeTarget "Protocol协议接口使用Tests" */;
+			buildPhases = (
+				54C35BF4233EFA290062D6E2 /* Sources */,
+				54C35BF5233EFA290062D6E2 /* Frameworks */,
+				54C35BF6233EFA290062D6E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54C35BFA233EFA290062D6E2 /* PBXTargetDependency */,
+			);
+			name = "Protocol协议接口使用Tests";
+			productName = "Protocol协议接口使用Tests";
+			productReference = 54C35BF8233EFA290062D6E2 /* Protocol协议接口使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54C35C02233EFA2A0062D6E2 /* Protocol协议接口使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C35C12233EFA2A0062D6E2 /* Build configuration list for PBXNativeTarget "Protocol协议接口使用UITests" */;
+			buildPhases = (
+				54C35BFF233EFA2A0062D6E2 /* Sources */,
+				54C35C00233EFA2A0062D6E2 /* Frameworks */,
+				54C35C01233EFA2A0062D6E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54C35C05233EFA2A0062D6E2 /* PBXTargetDependency */,
+			);
+			name = "Protocol协议接口使用UITests";
+			productName = "Protocol协议接口使用UITests";
+			productReference = 54C35C03233EFA2A0062D6E2 /* Protocol协议接口使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54C35BD5233EFA270062D6E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "刘渊";
+				TargetAttributes = {
+					54C35BDC233EFA270062D6E2 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					54C35BF7233EFA290062D6E2 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 54C35BDC233EFA270062D6E2;
+					};
+					54C35C02233EFA2A0062D6E2 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 54C35BDC233EFA270062D6E2;
+					};
+				};
+			};
+			buildConfigurationList = 54C35BD8233EFA270062D6E2 /* Build configuration list for PBXProject "Protocol协议接口使用" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54C35BD4233EFA270062D6E2;
+			productRefGroup = 54C35BDE233EFA270062D6E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54C35BDC233EFA270062D6E2 /* Protocol协议接口使用 */,
+				54C35BF7233EFA290062D6E2 /* Protocol协议接口使用Tests */,
+				54C35C02233EFA2A0062D6E2 /* Protocol协议接口使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54C35BDB233EFA270062D6E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C35BF0233EFA290062D6E2 /* LaunchScreen.storyboard in Resources */,
+				54C35BED233EFA290062D6E2 /* Assets.xcassets in Resources */,
+				54C35BEB233EFA270062D6E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C35BF6233EFA290062D6E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C35C01233EFA2A0062D6E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54C35BD9233EFA270062D6E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C35BE8233EFA270062D6E2 /* ViewController.m in Sources */,
+				54C35BE2233EFA270062D6E2 /* AppDelegate.m in Sources */,
+				54C35BF3233EFA290062D6E2 /* main.m in Sources */,
+				54C35BE5233EFA270062D6E2 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C35BF4233EFA290062D6E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C35BFD233EFA290062D6E2 /* Protocol______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C35BFF233EFA2A0062D6E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C35C08233EFA2A0062D6E2 /* Protocol______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54C35BFA233EFA290062D6E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54C35BDC233EFA270062D6E2 /* Protocol协议接口使用 */;
+			targetProxy = 54C35BF9233EFA290062D6E2 /* PBXContainerItemProxy */;
+		};
+		54C35C05233EFA2A0062D6E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54C35BDC233EFA270062D6E2 /* Protocol协议接口使用 */;
+			targetProxy = 54C35C04233EFA2A0062D6E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54C35BE9233EFA270062D6E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54C35BEA233EFA270062D6E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54C35BEE233EFA290062D6E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54C35BEF233EFA290062D6E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54C35C0A233EFA2A0062D6E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		54C35C0B233EFA2A0062D6E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54C35C0D233EFA2A0062D6E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Protocol协议接口使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yuan.Protocol------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54C35C0E233EFA2A0062D6E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Protocol协议接口使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yuan.Protocol------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54C35C10233EFA2A0062D6E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Protocol协议接口使用Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yuan.Protocol------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Protocol协议接口使用.app/Protocol协议接口使用";
+			};
+			name = Debug;
+		};
+		54C35C11233EFA2A0062D6E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Protocol协议接口使用Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yuan.Protocol------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Protocol协议接口使用.app/Protocol协议接口使用";
+			};
+			name = Release;
+		};
+		54C35C13233EFA2A0062D6E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Protocol协议接口使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yuan.Protocol------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Protocol协议接口使用";
+			};
+			name = Debug;
+		};
+		54C35C14233EFA2A0062D6E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Protocol协议接口使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yuan.Protocol------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Protocol协议接口使用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54C35BD8233EFA270062D6E2 /* Build configuration list for PBXProject "Protocol协议接口使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C35C0A233EFA2A0062D6E2 /* Debug */,
+				54C35C0B233EFA2A0062D6E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C35C0C233EFA2A0062D6E2 /* Build configuration list for PBXNativeTarget "Protocol协议接口使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C35C0D233EFA2A0062D6E2 /* Debug */,
+				54C35C0E233EFA2A0062D6E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C35C0F233EFA2A0062D6E2 /* Build configuration list for PBXNativeTarget "Protocol协议接口使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C35C10233EFA2A0062D6E2 /* Debug */,
+				54C35C11233EFA2A0062D6E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C35C12233EFA2A0062D6E2 /* Build configuration list for PBXNativeTarget "Protocol协议接口使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C35C13233EFA2A0062D6E2 /* Debug */,
+				54C35C14233EFA2A0062D6E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54C35BD5233EFA270062D6E2 /* Project object */;
+}
