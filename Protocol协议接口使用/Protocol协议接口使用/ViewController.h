@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "DemoDelegate.h"
 @protocol SportProtocol <NSObject>
 @property (nonatomic,copy) NSString *sportType;
 @optional;

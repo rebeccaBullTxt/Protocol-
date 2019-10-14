@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		540C297623544D6C001F79AD /* DemoDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoDelegate.h; sourceTree = "<group>"; };
 		54C35BDD233EFA270062D6E2 /* Protocol协议接口使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Protocol协议接口使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C35BE0233EFA270062D6E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		54C35BE1233EFA270062D6E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -115,6 +116,7 @@
 				54C35BEE233EFA290062D6E2 /* LaunchScreen.storyboard */,
 				54C35BF1233EFA290062D6E2 /* Info.plist */,
 				54C35BF2233EFA290062D6E2 /* main.m */,
+				540C297623544D6C001F79AD /* DemoDelegate.h */,
 			);
 			path = "Protocol协议接口使用";
 			sourceTree = "<group>";
